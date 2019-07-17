@@ -9,7 +9,7 @@ import { Cordova, IonicNativePlugin, Plugin } from '@ionic-native/core';
   platforms: ['iOS']
 })
 @Injectable()
-export class YourPluginName extends IonicNativePlugin {
+export class CordovaToast extends IonicNativePlugin {
  /**
   * Your plugin plugin functions go here.
   * Function names should match the ones in your .swift & .js files.
